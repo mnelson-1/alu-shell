@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# display all running PIDs
 while :
 do
 	echo "I am alive" >> /tmp/my_process
