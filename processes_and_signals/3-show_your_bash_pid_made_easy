@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# displays PID in full form
-pgrep -1 bash
+# displays PID,along with processes name, without ps
+pgrep bash -1
