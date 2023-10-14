@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# displays PID,along with processes name, without ps
+# displays PID,along with process name,of processes whose name contain the word bash without ps
 pgrep bash -1
