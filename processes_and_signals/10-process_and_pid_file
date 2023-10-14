@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# create a file containing the script's PID.
 sudo bash -c "echo $$ > /var/run/myscript.pid"
 
 trap 'echo "Y U no love me?!"' SIGINT
