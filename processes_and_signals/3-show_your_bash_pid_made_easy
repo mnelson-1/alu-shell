@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # displays PID,along with process name,of processes whose name contain the word bash without ps.
 
-pgrep -1 bash
+pgrep -1w bash
